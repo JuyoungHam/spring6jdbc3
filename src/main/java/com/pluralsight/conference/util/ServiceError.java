@@ -8,6 +8,10 @@ public class ServiceError {
 
     }
 
+    public ServiceError(int code) {
+        this.code = code;
+    }
+
     public ServiceError(int code, String message) {
         this.code = code;
         this.message = message;
